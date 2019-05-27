@@ -26,7 +26,9 @@ weatherForm.addEventListener("submit", e => {
           data.forecast.summary +
           " It is currently " +
           data.forecast.temperature +
-          " degrees out. There is a " +
+          " degrees out. This high today is " +
+          data.forecast.temperatureHigh +
+          " degrees. There is a " +
           data.forecast.preciptation * 100 +
           " % of chance of rain";
         //console.log(data.location);
