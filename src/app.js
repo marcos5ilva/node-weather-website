@@ -7,7 +7,7 @@ const forecast = require("./utils/forecast");
 //Create an new instance of the application
 const app = express();
 
-const port = 3000; //Define a port constant
+const port = process.env.PORT || 3000; //Define a port constant
 
 //Defining paths for Express config
 const publicDirectoryPath = path.join(__dirname, "../public");
