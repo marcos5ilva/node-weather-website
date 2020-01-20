@@ -1,5 +1,11 @@
-#bodyClass {
+
+
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat&display=swap');
+
+
+.bodyClass {
   color: #333333;
+  background-color: #FFDA61;
   font-family: arial;
   max-width: 650px;
   margin: 0 auto;
@@ -15,15 +21,32 @@
 }
 
 footer {
-  background-color: #888888;
+  background-color: #3A4B5B;
   border-top: 1px solid #eeeeee;
   margin-top: 16px;
   padding: 16px 0;
 }
 
 header {
-  margin-top: 16px;
-  margin-bottom: 48px;
+ 
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /*margin-bottom: 48px;*/
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  background-color: #3A4B5B;
+  color: #FFFFFF;
+
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
 }
 
 h1 {
@@ -41,15 +64,67 @@ header a {
   width: 250px;
 }
 
+.search-form{
+  margin-top: 10%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  background-color: #F4B234;
+  border-radius: 15px;
+  
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ;  
+}
+
 input {
+  font-family: 'Montserrat', sans-serif;
   border: 1px solid #cccccc;
   padding: 8px;
+  margin-left: 28%;
+  
 }
 
 button {
   cursor: pointer;
-  border: 1px solid #888888;
-  background: #888888;
+  border: 1px solid #FF8D1E;
+  border-radius: 5px;
+  background: #FF9204;
   color: white;
   padding: 8px;
+}
+
+.weather-result{
+  background-color: #FFFFFF;
+  color: #333333;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5%;
+  margin-top: 10%;
+
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+}
+
+
+
+footer{
+  background-color: #f2f2f2;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #333333;
+
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
 }

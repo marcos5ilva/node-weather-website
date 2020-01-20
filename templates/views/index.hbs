@@ -13,12 +13,17 @@
 <body class="bodyClass">
     <div class="main-content">
         {{>header}}
-        <form>
-            <input placeholder="Location" type="text">
-            <button>Search</button>
-        </form>
-        <p id="message-1"></p>
-        <p id="message-2"></p>
+
+        <div class="search-form">
+            <form>
+                <input placeholder="Location" type="text">
+                <button>Search</button>
+            </form>
+        </div>
+        <div class="weather-result">
+            <p id="message-1"></p>
+            <p id="message-2"></p>
+        </div>
 
     </div>
 
